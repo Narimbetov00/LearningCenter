@@ -1,6 +1,6 @@
 import sqlite3
 
-db = sqlite3.connect('texnopost.db')
+db = sqlite3.connect('YOUR DB')
 cursor = db.cursor()
 
 def db_start():
